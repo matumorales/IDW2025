@@ -1,0 +1,9 @@
+/* Archivo de estilos CSS para la página web */
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    background-color: #f4f4f4; /* Color de fondo */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+}
