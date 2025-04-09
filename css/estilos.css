@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+  /* Estilos del menú */
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+}
+
+.menu li {
+    flex: 1;
+    text-align: center;
+}
+
+.menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    background-color: rgb(135, 135, 145);
+    border-radius: 5%;
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);    
+    transform: scale(1.1); 
+}
+
+.btn_sarch_inicio{
+    border: none;
+    background-color: transparent; 
+    cursor: pointer;
+    padding: 5px;
+}
+
+.btn_sarch_inicio img {
+    width: 20px;
+    height: 20px; 
+    border-radius: 50%;  
+    background-color: transparent;
+    display: block;
+}
+
+.btn_sarch_inicio:hover img {
+    transform: scale(1.2); 
+    transition: transform 0.2s ease;
+}
+
+/* Footer del sitio*/
+footer {
+    background-color: #333; 
+    color: white; 
+    text-align: center;
+}
+
+.ftr_sitio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    list-style-type: none; 
+}
+
+.ftr_sitio li {
+    padding: 5px;
+}
+
+.ftr_sitio p {
+    color: white; 
+    font-size: 18px;
+    padding: auto;
+    text-align: center;
+}
+
+.ftr_sitio a img{
+/*    display: block;*/
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    width: 30px; 
+    height: 30px; 
+    margin: 10px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.ftr_sitio img:hover {
+    transform: scale(1.2); 
+    transition: transform 0.2s ease;
+}
+
+.ftr_sitio p:hover {
+    transform: scale(1.1); 
+    transition: transform 0.2s ease;
+}
+
+/* Diseño responsive */
+@media (max-width: 600px) {
+    .menu {
+    flex-direction: column;
+    }
+
+    .menu a {
+    font-size: 16px;
+    }
+    .ftr_sitio {
+    flex-direction: column;
+    }
+    .ftr_sitio a {
+    font-size: 16px;
+    }
+}
