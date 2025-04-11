@@ -91,8 +91,7 @@ footer {
     text-align: center;
 }
 
-.ftr_sitio a img{
-/*    display: block;*/
+.ftr_sitio a img {
     padding: 5px;
     text-decoration: none;
     color: white;
@@ -129,4 +128,38 @@ footer {
     .ftr_sitio a {
     font-size: 16px;
     }
+}
+/* Formulario de contacto*/
+.contenedorForm {
+    font-family: Overpass;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px white solid;
+    border-radius: 25px;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.contenedorForm .items {
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px rgb(235, 165, 74);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px rgb(235, 165, 74);
+    transition: all 0.9s ease;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.1);
 }

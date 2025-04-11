@@ -33,13 +33,42 @@
 
 <!-- Cuerpo principal del Sitio-->
 <main>
-<h1>Este es el cuerpo principal</h1>
+<h1>Bienvenidos a IDW - Alquiler de casas de Eventos</h1>
+<section>
+    <picture>
+        <!-- Imagen para pantallas grandes -->
+        <source srcset="imagen-grande.jpg" media="(min-width: 1024px)">
+        
+        <!-- Imagen para pantallas medianas -->
+        <source srcset="img/portada_m.jpg" media="(min-width: 768px)">
+        
+        <!-- Imagen predeterminada para pantallas pequeñas -->
+        <img src="imagen-pequeña.jpg" alt="Descripción de la imagen">
+    </picture>
+</section>
 <p>En IDW, nos especializamos en ofrecer espacios únicos y exclusivos para la celebración de eventos inolvidables. Contamos con una amplia variedad de casas y salones diseñados para adaptarse a cualquier tipo de ocasión, desde bodas y cumpleaños hasta reuniones corporativas. Nuestro objetivo es brindarte un ambiente perfecto que combine comodidad, estilo y funcionalidad.</p>
 
 <p>Nuestros servicios incluyen no solo el alquiler de espacios, sino también opciones adicionales como decoración personalizada, catering de alta calidad y asistencia técnica para garantizar que tu evento sea un éxito. Trabajamos con un equipo de profesionales dedicados a atender cada detalle, asegurando que todo esté a la altura de tus expectativas.</p>
 
 <p>Explora nuestra galería de imágenes para conocer más sobre los espacios que ofrecemos y no dudes en contactarnos para solicitar un presupuesto personalizado. En IDW, estamos comprometidos a hacer de tu evento una experiencia memorable, cuidando cada aspecto para que tú solo te preocupes por disfrutar.</p>
+
+<section class="formulario">
+    <div class="contenedorForm">
+        <label for="nombre_form" class="items">Nombre 
+            <input type="text">
+        </label>
+        <label for="mail_form" class="items">E-mail
+            <input type="email">
+        </label>
+        <label for="mensaje_form" class="items">Dejanos tú mensaje
+            <input type="text">
+        </label>
+        <button type="button" class="btn">Enviar</button>
+    </div>
+</section>
+
 </main>
+
 <!-- Pie del sitio-->
 <footer>
     <ul class="ftr_sitio">
